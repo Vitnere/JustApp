@@ -1,7 +1,7 @@
-# JustApp
-Third App
+# ShotTracker
+<b>Basketball counter app</b>
 
-<b>Android Development for Beginners How to Make an Android App</b>
+<b>Android Development for Beginners How to Make an Android App</b><br>
 https://www.udacity.com/course/android-development-for-beginners--ud837
 
 <b>Instructors & Partners: Katherine Kuan, Kunal Chawla, Lyla Fujiwara</b>
