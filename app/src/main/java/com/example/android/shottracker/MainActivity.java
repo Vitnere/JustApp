@@ -7,6 +7,8 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
+    int scoreTeamA = 0;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -21,14 +23,23 @@ public class MainActivity extends AppCompatActivity {
         scoreView.setText(String.valueOf(score));
     }
 
+    /*
+    * Increase score for three
+    * */
     public void display3(View v) {
         displayForTeamA(3);
     }
 
+    /*
+    * Increase score for two
+    * */
     public void display2(View v) {
         displayForTeamA(2);
     }
 
+    /*
+    * Increase score for one
+    * */
     public void display1(View v) {
         displayForTeamA(1);
     }
