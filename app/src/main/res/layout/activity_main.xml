@@ -22,21 +22,27 @@
         android:text="0" />
 
     <Button
+        android:id="@+id/three"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
+        android:onClick="display3"
         android:text="+3 points" />
 
     <Button
+        android:id="@+id/two"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
+        android:onClick="display2"
         android:text="+2 points" />
 
     <Button
+        android:id="@+id/one"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
+        android:onClick="display1"
         android:text="free throw" />
 
 
