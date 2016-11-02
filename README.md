@@ -1,6 +1,8 @@
 # ShotTracker
 <b>Basketball counter app</b>
 
+<img src="http://i.imgur.com/wCRNfku.png">
+
 <b>Android Development for Beginners How to Make an Android App</b><br>
 https://www.udacity.com/course/android-development-for-beginners--ud837
 
