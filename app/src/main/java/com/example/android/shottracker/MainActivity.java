@@ -9,6 +9,7 @@ public class MainActivity extends AppCompatActivity {
 
     int scoreTeamA = 0;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -27,21 +28,25 @@ public class MainActivity extends AppCompatActivity {
     * Increase score for three
     * */
     public void display3(View v) {
-        displayForTeamA(3);
+        scoreTeamA = scoreTeamA + 3;
+        displayForTeamA(scoreTeamA);
+
     }
 
     /*
     * Increase score for two
     * */
     public void display2(View v) {
-        displayForTeamA(2);
+        scoreTeamA = scoreTeamA + 2;
+        displayForTeamA(scoreTeamA);
     }
 
     /*
     * Increase score for one
     * */
     public void display1(View v) {
-        displayForTeamA(1);
+        scoreTeamA = scoreTeamA + 1;
+        displayForTeamA(scoreTeamA);
     }
 
 }
